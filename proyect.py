@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -69,7 +68,7 @@ model.fit(X_train_scaled, y_train)
 menu = st.sidebar.radio(
     "Navegación",
     ["📘 Metodología", "📊 Métricas del Modelo", "📈 Visualizaciones",
-     "🧭 PCA 3D (Requisito)", "🔮 Predicción del Usuario"]
+     "🧭 PCA 3D", "🔮 Predicción del Usuario"]
 )
 
 
@@ -153,6 +152,7 @@ elif menu == "📊 Métricas del Modelo":
     st.pyplot(fig)
 
 
+
 # -----------------------------------------------------
 # 📈 SECCIÓN VISUALIZACIONES BÁSICAS
 # -----------------------------------------------------
@@ -182,8 +182,27 @@ elif menu == "📈 Visualizaciones":
     )
     st.plotly_chart(fig3d)
 
+
+
 # -----------------------------------------------------
-# 🔮 SECCIÓN PREDICCIÓN DEL USUARIO
+# 🧭 PCA 3D
+# -----------------------------------------------------
+elif menu == "🧭 PCA 3D":
+    st.header("🧭 Visualización PCA 3D")
+
+    fig_pca = px.scatter_3d(
+        df_pca,
+        x="PC1",
+        y="PC2",
+        z="PC3",
+        color="Species",
+        title="PCA 3D del Dataset Iris"
+    )
+    st.plotly_chart(fig_pca)
+
+
+# -----------------------------------------------------
+# 🔮 PREDICCIÓN DEL USUARIO
 # -----------------------------------------------------
 elif menu == "🔮 Predicción del Usuario":
     st.header("🔮 Predicción de Especie")
