@@ -182,8 +182,11 @@ elif menu == "📈 Visualizaciones":
     st.plotly_chart(fig3d)
 
 
+
+
 # -----------------------------------------------------
 # 🧭 PCA 3D
+# -----------------------------------------------------
 elif menu == "🧭 PCA 3D":
     st.header("🧭 Visualización PCA 3D")
 
