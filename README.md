@@ -1,9 +1,9 @@
-#Integrantes
+## Integrantes
 
-Cristian Castiblanco (Grupo Virtual: 10895)
-Ronald Monterroza (Grupo Virtual: 10895)
-Luisa Mancilla (Grupo Virtual: 10895)
-Emely Rueda (Grupo Virtual: 10919)
+- Cristian Castiblanco (Grupo Virtual: 10895)
+- Ronald Monterroza (Grupo Virtual: 10895)
+- Luisa Mancilla (Grupo Virtual: 10895)
+- Emely Rueda (Grupo Virtual: 10919)
 
 # Clasificación de Especies de Iris
 
