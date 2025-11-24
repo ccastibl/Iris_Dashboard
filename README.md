@@ -1,4 +1,4 @@
-## Integrantes
+### Integrantes
 
 - Cristian Castiblanco (Grupo Virtual: 10895)
 - Ronald Monterroza (Grupo Virtual: 10895)
