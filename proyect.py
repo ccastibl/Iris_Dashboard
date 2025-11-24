@@ -182,24 +182,6 @@ elif menu == "📈 Visualizaciones":
     )
     st.plotly_chart(fig3d)
 
-
-# -----------------------------------------------------
-# 🧭 PCA 3D
-# -----------------------------------------------------
-elif menu == "🧭 PCA 3D":
-    st.header("🧭 Visualización PCA 3D")
-
-    fig_pca = px.scatter_3d(
-        df_pca,
-        x="PC1",
-        y="PC2",
-        z="PC3",
-        color="Species",
-        title="PCA 3D del Dataset Iris"
-    )
-    st.plotly_chart(fig_pca)
-
-
 # -----------------------------------------------------
 # 🔮 SECCIÓN PREDICCIÓN DEL USUARIO
 # -----------------------------------------------------
