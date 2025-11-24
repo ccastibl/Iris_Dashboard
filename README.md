@@ -1,3 +1,10 @@
+#Integrantes
+
+Cristian Castiblanco (Grupo Virtual: 10895)
+Ronald Monterroza (Grupo Virtual: 10895)
+Luisa Mancilla (Grupo Virtual: 10895)
+Emely Rueda (Grupo Virtual: 10919)
+
 # Clasificación de Especies de Iris
 
 Este proyecto implementa un proceso completo de análisis y modelado para clasificar flores del dataset Iris mediante técnicas de aprendizaje automático. Incluye exploración de datos, visualización, preprocesamiento, entrenamiento de un modelo y evaluación de resultados.
