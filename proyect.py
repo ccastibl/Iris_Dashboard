@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -182,8 +183,6 @@ elif menu == "📈 Visualizaciones":
     st.plotly_chart(fig3d)
 
 
-
-
 # -----------------------------------------------------
 # 🧭 PCA 3D
 # -----------------------------------------------------
@@ -200,7 +199,10 @@ elif menu == "🧭 PCA 3D":
     )
     st.plotly_chart(fig_pca)
 
+
+# -----------------------------------------------------
 # 🔮 SECCIÓN PREDICCIÓN DEL USUARIO
+# -----------------------------------------------------
 elif menu == "🔮 Predicción del Usuario":
     st.header("🔮 Predicción de Especie")
 
