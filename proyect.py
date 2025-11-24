@@ -183,10 +183,9 @@ elif menu == "📈 Visualizaciones":
 
 
 # -----------------------------------------------------
-# 🧭 PCA 3D — REQUISITO DEL PDF
-# -----------------------------------------------------
-elif menu == "🧭 PCA 3D (Requisito)":
-    st.header("🧭 Visualización PCA 3D (Requisito del PDF)")
+# 🧭 PCA 3D
+elif menu == "🧭 PCA 3D":
+    st.header("🧭 Visualización PCA 3D")
 
     fig_pca = px.scatter_3d(
         df_pca,
@@ -198,10 +197,7 @@ elif menu == "🧭 PCA 3D (Requisito)":
     )
     st.plotly_chart(fig_pca)
 
-
-# -----------------------------------------------------
 # 🔮 SECCIÓN PREDICCIÓN DEL USUARIO
-# -----------------------------------------------------
 elif menu == "🔮 Predicción del Usuario":
     st.header("🔮 Predicción de Especie")
 
